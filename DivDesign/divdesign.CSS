@@ -9,6 +9,61 @@
 		font-size: 16px;
 		background: none;
 	  }
+      ul, li{
+        position: relative;
+        margin: 0px auto;
+      }
+      #menu{
+        display: block;
+        margin: 0px auto;
+        position: relative;       
+      }
+      #menu > li{
+        display: inline-block;
+        position: relative;
+        padding: 10px;
+        bottom: 10px;
+      }
+      #menu > li:hover{
+        background: #FFF; 
+      }
+      #menu > li > a{
+        display: inline-block;
+        height: 20px;
+        padding: 0px 10px 0px 10px;
+      }
+      #menu > li > ul{
+        display: none;
+        background: #CCC;      
+        position: absolute;
+      }
+      #menu > li:hover > ul{
+        display: block;
+        padding: 0px;
+        top: 40px;
+        left: 0px;
+        background: #CCC;
+      }
+      #menu > li:hover > a {
+        color: #000;
+        text-decoration: none;
+      }
+      #menu > li:hover > ul > li{
+        display: inline-block;
+        background: linear-gradient(to top, #CCC, #FFF);
+        border: 1px solid #CCC;
+      }     
+      #menu > li:hover > ul > li > a{
+        display: inline-block;
+        width: 200px;
+        height: 20px;
+        padding: 10px 0px 10px 0px;
+      }
+      #menu > li:hover > ul > li > a:hover{
+        background: #9999CC;
+        text-decoration: none;
+        color: #FFF;
+      } 
 	  div#Head, div#Foot{
 	    background: linear-gradient(to top, #9999CC, #333366);
 		width: 1024px;
@@ -20,6 +75,9 @@
 		color: #FFF;
 		text-align: center;
 	  }
+      div#Foot a{
+        padding: 0px 20px 0px 20px;
+      }
       div#Foot a:link, div#Foot a:visited{
 	    color: #CCCCFF;
 		font-size: 16px;
@@ -34,11 +92,13 @@
 	  div.InfoLine{
 	    background: linear-gradient(to top, #CCC, #FFF);
 		width: 1024px;
+        height: 20px;
 		padding: 10px 100px;
         float: none;
 		margin: 0px auto;
 		color: #333; 
 		text-align: center;
+        border-bottom: 1px solid #CCC;
 	  }
 	  div#Main{
 	    background: #FFF;
