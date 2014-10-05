@@ -1,0 +1,75 @@
+	  a:link, a:visited{
+	    color: #333;
+		font-size: 16px;
+		text-decoration: none;		   
+	  }
+	  a:hover, a:active{
+	    color: #000;
+		text-decoration: underline;  
+		font-size: 16px;
+		background: none;
+	  }
+	  div#Head, div#Foot{
+	    background: linear-gradient(to top, #9999CC, #333366);
+		width: 1024px;
+		height: 100px;
+		padding: 20px 100px;
+		float: none;
+		margin: 0px auto;
+		clear: left;
+		color: #FFF;
+		text-align: center;
+	  }
+      div#Foot a:link, div#Foot a:visited{
+	    color: #CCCCFF;
+		font-size: 16px;
+		text-decoration: none;
+	  }
+	  div#Foot a:hover, div#Foot a:active{
+	    color: #FFF;
+		font-size: 16px;
+		text-decoration: underline;
+		background: none;
+	  }
+	  div.InfoLine{
+	    background: linear-gradient(to top, #CCC, #FFF);
+		width: 1024px;
+		padding: 10px 100px;
+        float: none;
+		margin: 0px auto;
+		color: #333; 
+		text-align: center;
+	  }
+	  div#Main{
+	    background: #FFF;
+		width: 1224px;	 /* 1024px + padding-left + padding-right*/
+		padding: 10px 0px 10px 0px; 
+		margin: 0px auto;
+		float: none;
+        display: block; 
+	  }
+	  div.SideBar{
+	    background: #FFF;
+	    width: 260px;
+		float: left;
+	  }
+	  div.Content{
+	    background: #FFF;
+		width: 604px;
+		padding: 20px 50px 50px 50px;
+		text-align: left;
+		float: left;
+	  }
+	  div.HeadMenu{
+	    background: linear-gradient(to top, #9999CC, #666699);
+		text-align: center;
+		padding: 10px 0px 10px 0px;
+		font-size: 18px;
+		color: #FFF;
+	  }
+	  div.ContentMenu{
+	    background: linear-gradient(to top, #FFF, #CCC);
+		border: 1px solid #CCC;
+		padding: 20px;
+		color: #333;
+	  }
